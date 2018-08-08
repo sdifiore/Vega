@@ -17,6 +17,7 @@ import { VehicleListComponent } from './vehicle-list/vehicle-list';
 import { ViewVehicleComponent } from './view-vehicle/view-vehicle';
 import { PaginationComponent } from './shared/pagination.component';
 import { Http, HttpModule } from '@angular/http';
+import { Observable } from 'rxjs/Observable';
 
 @NgModule({
   declarations: [

@@ -3,7 +3,7 @@ import { Observable } from 'rxjs/Observable';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { ToastyService } from "ng2-toasty";
-import 'rxjs/add/Observable/forkJoin';
+import 'rxjs/add/observable/forkJoin';
 import { SaveVehicle, Vehicle } from '../models/vehicle';
 import { VehicleService } from '../services/vehicle.service';
 
